@@ -1,0 +1,92 @@
+/* Set the background image for the entire page */
+body {
+    background-image: url('images/img.jpg');  /* Use the local image path */
+    background-size: cover;  /* Make sure the image covers the entire screen */
+    background-position: center;
+    background-attachment: fixed;  /* Optional: Fix the background image when scrolling */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Style the form container */
+.form-container {
+    background-color: rgba(0, 0, 0, 0.7);  /* Dark background with 70% opacity */
+    color: white;  /* White text for better contrast */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    box-sizing: border-box;
+}
+
+/* Form heading style */
+h2 {
+    text-align: center;
+    color: #fff;  /* White text */
+}
+
+/* Form row styles */
+.form-row {
+    margin-bottom: 15px;
+}
+
+/* Input field styles */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.9);  /* Light background for input fields */
+}
+
+/* Error message styles */
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* Checkbox group styles */
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.checkbox-group input {
+    margin-right: 10px;
+}
+
+/* Button style */
+button {
+    margin-top: 10px;
+    width: 100%;
+    padding: 20px;
+    background-color: #4CAF50;  /* Green background */
+    color: white;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Link style */
+a {
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
